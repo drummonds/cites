@@ -1,3 +1,5 @@
 bin/
 docs/*.html
 /cites
+
+.vscode
