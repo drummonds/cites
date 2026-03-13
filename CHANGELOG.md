@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-03-13
+
+ - adding settings
+
 ### Added
 
 - Initial project structure with three-package architecture (source, capture, render)
