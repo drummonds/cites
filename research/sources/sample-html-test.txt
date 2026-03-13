@@ -1,0 +1,38 @@
+---
+title: Sample HTML Test
+url: ""
+source_type: html
+first_captured: 2026-03-13T18:02:51.129477662Z
+last_checked: 2026-03-13T18:02:51.129477662Z
+content_hash: sha256:65b89f175938fc69cbcd1ca2aff4f64af747fcc54a063c2201e0a4e9d8b6d2a4
+sections:
+  - line: 6
+    heading: 'Section 2: Details'
+    original_anchor: '#section-2-details'
+  - line: 14
+    heading: APPENDIX A
+    original_anchor: '#appendix-a'
+  - line: 16
+    heading: Appendix content.
+    original_anchor: '#appendix-content'
+versions:
+  - date: "2026-03-13"
+    hash: sha256:65b89f175938fc69cbcd1ca2aff4f64af747fcc54a063c2201e0a4e9d8b6d2a4
+    note: Initial capture
+---
+Test Document
+Introduction
+
+This is the first paragraph of the test document.
+
+Section 2: Details
+
+Some detailed content here.
+
+2.1 Subsection
+
+More content in a subsection.
+
+APPENDIX A
+
+Appendix content.

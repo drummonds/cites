@@ -1,0 +1,37 @@
+---
+title: "Test Source Document"
+url: "https://example.com/test.pdf"
+source_type: pdf
+source_date: "2024-01-15"
+first_captured: "2025-03-13T10:30:00Z"
+last_checked: "2025-03-13T10:30:00Z"
+content_hash: "sha256:bc3067a5896220a981a8c6efcae13679a5a93981beb1ea384e67b061d0805f72"
+sections:
+  - line: 1
+    heading: "1. Introduction"
+    original_anchor: "#page=1"
+  - line: 10
+    heading: "2. Methodology"
+    original_anchor: "#page=2"
+pages:
+  - page: 1
+    start_line: 1
+  - page: 2
+    start_line: 8
+versions:
+  - date: "2025-03-13"
+    hash: "sha256:bc3067a5896220a981a8c6efcae13679a5a93981beb1ea384e67b061d0805f72"
+    note: "Initial capture"
+---
+1. Introduction
+
+This is the introduction section.
+It contains some important information.
+Line five of the document.
+Line six of the document.
+Line seven of the document.
+
+2. Methodology
+
+The methodology section starts here.
+More detail about methodology.

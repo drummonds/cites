@@ -1,0 +1,15 @@
+1. Introduction
+
+This is a plain text document with heading-like lines.
+
+2. Background
+
+Some background information here.
+
+CHAPTER THREE
+
+This chapter covers the main topic.
+
+Section 4: Conclusion
+
+Final remarks and summary.

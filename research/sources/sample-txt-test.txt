@@ -1,0 +1,36 @@
+---
+title: Sample TXT Test
+url: ""
+source_type: txt
+first_captured: 2026-03-13T18:04:26.219196899Z
+last_checked: 2026-03-13T18:04:26.219196899Z
+content_hash: sha256:58931616da92e9f20489652e745cab9b24480819c263d8bc22c35486f2d3598a
+sections:
+  - line: 1
+    heading: 1. Introduction
+  - line: 5
+    heading: 2. Background
+  - line: 9
+    heading: CHAPTER THREE
+  - line: 13
+    heading: 'Section 4: Conclusion'
+versions:
+  - date: "2026-03-13"
+    hash: sha256:58931616da92e9f20489652e745cab9b24480819c263d8bc22c35486f2d3598a
+    note: Initial capture
+---
+1. Introduction
+
+This is a plain text document with heading-like lines.
+
+2. Background
+
+Some background information here.
+
+CHAPTER THREE
+
+This chapter covers the main topic.
+
+Section 4: Conclusion
+
+Final remarks and summary.

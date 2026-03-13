@@ -1,0 +1,8 @@
+project_type: library
+check: [task check]
+pages_build:
+  - task docs:build
+pages_deploy:
+  - type: statichost
+    site: h3-cites
+remotes: [origin, github]
