@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../cites-WTrel"
 		}
 	],
 	"settings": {
