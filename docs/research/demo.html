@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>APR vs AER — A Comparison of UK Interest Rate Standards - cites</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        pre {
+            background-color: #2b2b2b;
+            color: #f8f8f2;
+            padding: 1.25em 1.5em;
+            overflow-x: auto;
+        }
+        pre code {
+            color: inherit;
+            background: none;
+            padding: 0;
+            font-size: 0.875em;
+        }
+        code {
+            background-color: #f5f5f5;
+            color: #e83e8c;
+            padding: 0.125em 0.375em;
+            border-radius: 3px;
+        }
+        pre.mermaid {
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<style>.topbar{background:#0366d6;color:#fff;padding:.5rem 1.5rem;margin-bottom:1.5rem;border-radius:6px;font-size:.85rem;display:flex;align-items:center;gap:.5rem}.topbar a{color:#fff;text-decoration:none;font-weight:600}.topbar a:hover{text-decoration:underline}.topbar .sep{opacity:.6}@media(prefers-color-scheme:dark){.topbar{background:#1f6feb}}</style>
+<nav class="topbar"><a href="../index.html">cites</a> <span class="sep">›</span> <a href=".">research</a> <span class="sep">›</span> demo</nav>
+    <nav class="navbar is-primary">
+        <div class="navbar-brand">
+            <a class="navbar-item has-text-weight-bold" href="../index.html">cites</a>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li class="is-active"><a href="#" aria-current="page">Internal Docs</a></li>
+                    <li class="is-active"><a href="#" aria-current="page">APR vs AER — A Comparison of UK Interest Rate Standards</a></li>
+                </ul>
+            </nav>
+
+            <div class="content">
+                <h1 id="apr-vs-aer--a-comparison-of-uk-interest-rate-standards">APR vs AER — A Comparison of UK Interest Rate Standards</h1>
+<h2 id="overview">Overview</h2>
+<p>UK financial regulation uses two distinct standardised interest rate measures:</p>
+<ul>
+<li><strong>APR (Annual Percentage Rate)</strong> — the cost of borrowing, defined by the Consumer Credit Act 1974</li>
+<li><strong>AER (Annual Equivalent Rate)</strong> — the return on savings, defined by UK Finance industry practice</li>
+</ul>
+<p>Both aim to give consumers a single comparable number, but they apply to opposite sides of the same transaction.</p>
+<h2 id="apr--annual-percentage-rate">APR — Annual Percentage Rate</h2>
+<p>The Consumer Credit Act 1974 establishes the legal framework for APR disclosure.
+The total charge for credit must be expressed as an annual rate to allow
+comparison between different credit products.</p>
+<p>Key provisions:</p>
+<ul>
+<li><a href="sources/cca-1974.yaml#L142">CCA s.20 — Total charge for credit</a> defines what must be included in the APR calculation</li>
+<li><a href="sources/cca-1974.yaml#L200">CCA Part V — Entry into credit agreements</a> requires APR disclosure before agreement signing</li>
+</ul>
+<p>The APR formula accounts for the timing and amount of all payments, including fees, insurance, and ancillary charges — not just the headline interest rate.</p>
+<h2 id="aer--annual-equivalent-rate">AER — Annual Equivalent Rate</h2>
+<p>The AER is an industry standard maintained by UK Finance (formerly the British Bankers' Association).
+The <a href="../r2/">AER Practice Note</a> sets out the calculation methodology.</p>
+<p>Key points from the practice note:</p>
+<ul>
+<li><a href="../r2/p01.html#l29">Scope — which products must show AER</a> — all interest bearing accounts</li>
+<li><a href="../r2/p01.html#l37">Advertising requirements</a> — how interest rates must be described</li>
+<li>AER shows what the interest rate would be if interest were compounded annually</li>
+<li><a href="../r2/p09.html#l444">Calculation examples</a> — worked examples for different compounding frequencies</li>
+</ul>
+<h2 id="comparison">Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>APR</th>
+<th>AER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Applies to</td>
+<td>Credit (borrowing)</td>
+<td>Savings (deposits)</td>
+</tr>
+<tr>
+<td>Defined by</td>
+<td>Consumer Credit Act 1974 (statute)</td>
+<td>UK Finance Practice Note (industry)</td>
+</tr>
+<tr>
+<td>Includes fees</td>
+<td>Yes — total charge for credit</td>
+<td>No — interest only</td>
+</tr>
+<tr>
+<td>Compounding</td>
+<td>Accounts for payment timing</td>
+<td>Annualises the compounding frequency</td>
+</tr>
+<tr>
+<td>Purpose</td>
+<td>Cost of borrowing</td>
+<td>Return on savings</td>
+</tr>
+</tbody>
+</table>
+<h2 id="why-both-matter">Why Both Matter</h2>
+<p>A consumer taking out a loan and opening a savings account needs both numbers to make informed decisions. The APR tells them what they'll pay; the AER tells them what they'll earn. Without standardisation, comparing products across providers would be impractical.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="sources/cca-1974.yaml">Consumer Credit Act 1974</a> — full text capture from legislation.gov.uk</li>
+<li><a href="../r2/">AER Practice Note, January 2024</a> — UK Finance (<a href="sources/aer-practice-note-2025.yaml">source YAML</a>)</li>
+</ul>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

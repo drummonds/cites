@@ -50,6 +50,7 @@ type Meta struct {
 	URL           string      `yaml:"url"`
 	SourceType    SourceType  `yaml:"source_type"`
 	SourceDate    string      `yaml:"source_date,omitempty"`
+	OriginalFile  string      `yaml:"original_file,omitempty"`
 	FirstCaptured time.Time   `yaml:"first_captured"`
 	LastChecked   time.Time   `yaml:"last_checked"`
 	ContentHash   string      `yaml:"content_hash"`

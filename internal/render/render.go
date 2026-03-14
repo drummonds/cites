@@ -60,10 +60,15 @@ var refTemplate = template.Must(template.New("reference").Funcs(template.FuncMap
     .page-nav a:hover { background: var(--line-bg); }
     .page-nav .active { background: var(--line-bg); font-weight: 600; }
     .page-break { border-top: 2px dashed var(--border); margin: 0.5rem 0; padding-top: 0.25rem; }
+    .topbar { background: var(--link); color: #fff; padding: 0.5rem 1.5rem; margin-bottom: 1.5rem; border-radius: 6px; font-size: 0.85rem; }
+    .topbar a { color: #fff; text-decoration: none; font-weight: 600; }
+    .topbar a:hover { text-decoration: underline; }
     @media (max-width: 700px) { .side-by-side { grid-template-columns: 1fr; } .page-nav { display: none; } }
   </style>
 </head>
 <body>
+
+<nav class="topbar"><a href="{{ if .BasePath }}{{ .BasePath }}/{{ end }}index.html">cites</a> › {{ .Meta.Title }}</nav>
 
 <div class="meta">
   <h1>{{ .Meta.Title }}</h1>
@@ -146,10 +151,13 @@ type RenderData struct {
 	Lines       []Line
 	HasPages    bool
 	Pages       []source.PageBreak
+	BasePath    string // relative path to docs root (e.g. ".." for refNN/ subdirs)
 }
 
 // Render writes an HTML reference document for the given source.
-func Render(w io.Writer, src *source.Source) error {
+// basePath sets the relative path to the docs root for breadcrumb links
+// (empty string for same directory, ".." for one level up).
+func Render(w io.Writer, src *source.Source, basePath string) error {
 	lines := buildLines(src)
 	data := RenderData{
 		Meta:        src.Meta,
@@ -157,6 +165,7 @@ func Render(w io.Writer, src *source.Source) error {
 		Lines:       lines,
 		HasPages:    len(src.Meta.Pages) > 0,
 		Pages:       src.Meta.Pages,
+		BasePath:    basePath,
 	}
 	return refTemplate.Execute(w, data)
 }
@@ -197,10 +206,10 @@ func buildLines(src *source.Source) []Line {
 	return lines
 }
 
-// RenderToString is a convenience wrapper.
+// RenderToString is a convenience wrapper that renders with default settings.
 func RenderToString(src *source.Source) (string, error) {
 	var buf strings.Builder
-	if err := Render(&buf, src); err != nil {
+	if err := Render(&buf, src, ""); err != nil {
 		return "", fmt.Errorf("rendering: %w", err)
 	}
 	return buf.String(), nil

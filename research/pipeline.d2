@@ -1,0 +1,40 @@
+direction: right
+
+source: Source Document {
+  shape: page
+  style.fill: "#e3f2fd"
+}
+
+capture: "cites capture" {
+  shape: hexagon
+  style.fill: "#fff3e0"
+}
+
+yaml: ".yaml file" {
+  shape: document
+  style.fill: "#e8f5e9"
+}
+
+render: "cites render" {
+  shape: hexagon
+  style.fill: "#fff3e0"
+}
+
+pages: "HTML pages" {
+  shape: page
+  style.fill: "#fce4ec"
+  style.multiple: true
+}
+
+source -> capture: "URL or file"
+capture -> yaml: "extract text\ndetect sections\ncompute hash"
+yaml -> render: "frontmatter + body"
+render -> pages: "index.html\np01.html, p02.html, …\np01.png, p02.png, …"
+
+check: "cites check" {
+  shape: hexagon
+  style.fill: "#f3e5f5"
+}
+
+yaml -> check: "re-fetch & compare"
+check -> yaml: "update hash/body" {style.stroke-dash: 3}

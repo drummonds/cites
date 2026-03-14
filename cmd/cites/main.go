@@ -36,7 +36,7 @@ func usage() {
 
 Usage:
   cites capture <url-or-file> <title> [output-path]
-  cites render  <source-file> [output-path]
+  cites render  [--base PATH] [--pdf PATH] [--lines-per-page N] <source.yaml> <output-dir>
   cites check   [--update] <source-file>`)
 }
 
@@ -49,20 +49,35 @@ func cmdCapture(args []string) {
 	location := args[0]
 	title := args[1]
 
-	src, err := capture.Capture(location, title)
+	outPath := ""
+	if len(args) >= 3 {
+		outPath = args[2]
+	} else {
+		// Default: slugify title + .yaml
+		slug := strings.ToLower(title)
+		slug = strings.ReplaceAll(slug, " ", "-")
+		outPath = slug + ".yaml"
+	}
+
+	// Derive PDF save path from output path.
+	var opts capture.CaptureOpts
+	outDir := filepath.Dir(outPath)
+	pdfDir := filepath.Join(outDir, "pdfs")
+	base := strings.TrimSuffix(filepath.Base(outPath), filepath.Ext(outPath))
+	opts.PdfSavePath = filepath.Join(pdfDir, base+".pdf")
+
+	src, err := capture.Capture(location, title, opts)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "capture failed: %v\n", err)
 		os.Exit(1)
 	}
 
-	outPath := ""
-	if len(args) >= 3 {
-		outPath = args[2]
-	} else {
-		// Default: slugify title + .txt
-		slug := strings.ToLower(title)
-		slug = strings.ReplaceAll(slug, " ", "-")
-		outPath = slug + ".txt"
+	// Make OriginalFile relative to the source file location.
+	if src.Meta.OriginalFile != "" {
+		rel, relErr := filepath.Rel(outDir, src.Meta.OriginalFile)
+		if relErr == nil {
+			src.Meta.OriginalFile = rel
+		}
 	}
 
 	if err := src.WriteFile(outPath); err != nil {
@@ -76,33 +91,54 @@ func cmdCapture(args []string) {
 
 func cmdRender(args []string) {
 	if len(args) < 1 {
-		fmt.Fprintln(os.Stderr, "usage: cites render <source-file> [output-path]")
+		fmt.Fprintln(os.Stderr, "usage: cites render [--base PATH] [--pdf PATH] [--lines-per-page N] <source.yaml> <output-dir>")
 		os.Exit(1)
 	}
 
-	srcPath := args[0]
+	opts := render.RenderOpts{}
+	var positional []string
+	for i := 0; i < len(args); i++ {
+		switch args[i] {
+		case "--base":
+			if i+1 < len(args) {
+				opts.BasePath = args[i+1]
+				i++
+			}
+		case "--pdf":
+			if i+1 < len(args) {
+				opts.PdfPath = args[i+1]
+				i++
+			}
+		case "--lines-per-page":
+			if i+1 < len(args) {
+				fmt.Sscanf(args[i+1], "%d", &opts.LinesPerPage)
+				i++
+			}
+		default:
+			positional = append(positional, args[i])
+		}
+	}
+
+	if len(positional) < 2 {
+		fmt.Fprintln(os.Stderr, "usage: cites render [--base PATH] [--pdf PATH] [--lines-per-page N] <source.yaml> <output-dir>")
+		os.Exit(1)
+	}
+
+	srcPath := positional[0]
+	outDir := positional[1]
+
 	src, err := source.ParseFile(srcPath)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "reading %s: %v\n", srcPath, err)
 		os.Exit(1)
 	}
 
-	outPath := ""
-	if len(args) >= 2 {
-		outPath = args[1]
-	} else {
-		base := strings.TrimSuffix(filepath.Base(srcPath), filepath.Ext(srcPath))
-		outPath = base + ".html"
+	// Default --pdf: resolve original_file from frontmatter relative to source file location.
+	if opts.PdfPath == "" && src.Meta.OriginalFile != "" {
+		opts.PdfPath = filepath.Join(filepath.Dir(srcPath), src.Meta.OriginalFile)
 	}
 
-	f, err := os.Create(outPath)
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "creating %s: %v\n", outPath, err)
-		os.Exit(1)
-	}
-	defer f.Close()
-
-	if err := render.Render(f, src); err != nil {
+	if err := render.RenderDir(outDir, src, opts); err != nil {
 		fmt.Fprintf(os.Stderr, "rendering: %v\n", err)
 		os.Exit(1)
 	}
@@ -111,7 +147,8 @@ func cmdRender(args []string) {
 	if src.HasChanged() {
 		status = "CHANGED"
 	}
-	fmt.Printf("rendered %s → %s (hash: %s)\n", srcPath, outPath, status)
+	pages := render.PagesForSource(src, opts.LinesPerPage)
+	fmt.Printf("rendered %s → %s/ (%d pages, hash: %s)\n", srcPath, outDir, len(pages), status)
 }
 
 func cmdCheck(args []string) {

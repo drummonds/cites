@@ -17,21 +17,22 @@ comparison between different credit products.
 
 Key provisions:
 
-- [CCA s.20 — Total charge for credit](sources/cca-1974.txt#L142) defines what must be included in the APR calculation
-- [CCA Part V — Entry into credit agreements](sources/cca-1974.txt#L200) requires APR disclosure before agreement signing
+- [CCA s.20 — Total charge for credit](sources/cca-1974.yaml#L142) defines what must be included in the APR calculation
+- [CCA Part V — Entry into credit agreements](sources/cca-1974.yaml#L200) requires APR disclosure before agreement signing
 
 The APR formula accounts for the timing and amount of all payments, including fees, insurance, and ancillary charges — not just the headline interest rate.
 
 ## AER — Annual Equivalent Rate
 
 The AER is an industry standard maintained by UK Finance (formerly the British Bankers' Association).
-The [AER Practice Note](sources/aer-practice-note-2025.txt) sets out the calculation methodology.
+The [AER Practice Note](../r2/) sets out the calculation methodology.
 
 Key points from the practice note:
 
-- [Definition and scope](sources/aer-practice-note-2025.txt#L1) — what products must show AER
+- [Scope — which products must show AER](../r2/p01.html#l29) — all interest bearing accounts
+- [Advertising requirements](../r2/p01.html#l37) — how interest rates must be described
 - AER shows what the interest rate would be if interest were compounded annually
-- Allows direct comparison between products that pay interest at different frequencies
+- [Calculation examples](../r2/p09.html#l444) — worked examples for different compounding frequencies
 
 ## Comparison
 
@@ -49,5 +50,5 @@ A consumer taking out a loan and opening a savings account needs both numbers to
 
 ## Sources
 
-- [Consumer Credit Act 1974](sources/cca-1974.txt) — full text capture from legislation.gov.uk
-- [AER Practice Note, January 2024](sources/aer-practice-note-2025.txt) — UK Finance
+- [Consumer Credit Act 1974](sources/cca-1974.yaml) — full text capture from legislation.gov.uk
+- [AER Practice Note, January 2024](../r2/) — UK Finance ([source YAML](sources/aer-practice-note-2025.yaml))

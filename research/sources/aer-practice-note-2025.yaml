@@ -1,0 +1,1137 @@
+---
+title: AER Practice Note
+url: https://www.ukfinance.org.uk/system/files/2025-02/Annual%20Equivalent%20Rate%20AER%20practice%20note_0.pdf
+source_type: pdf
+first_captured: 2026-03-13T18:56:13.185035062Z
+last_checked: 2026-03-13T18:56:13.185035062Z
+content_hash: sha256:104e05cfb2320c168537a53b039264fa9c0d36be94e46eda109332d38764b453
+sections:
+  - line: 29
+    heading: 1. The terms of this Practice Note apply to the advertising of all interest bearing accounts
+    original_anchor: '#page=1'
+  - line: 37
+    heading: '2. Where interest rates are advertised, these must be described as follows:'
+    original_anchor: '#page=1'
+  - line: 70
+    heading: Section 7) to advertisements.
+    original_anchor: '#page=2'
+  - line: 102
+    heading: 3. Advertisements which quote a rate of interest must quote the AER and either the Gross
+    original_anchor: '#page=3'
+  - line: 127
+    heading: 4. Advertisements which quote a rate of interest must contain the following specific
+    original_anchor: '#page=3'
+  - line: 150
+    heading: 5. Advertisements which quote a rate of interest must clearly explain in the main part of the
+    original_anchor: '#page=4'
+  - line: 176
+    heading: 6. Advertisements which quote a rate of interest must clearly explain the following in the
+    original_anchor: '#page=4'
+  - line: 207
+    heading: 7. A general notice to customers of rates need only comply with Sections 2 and 3 above In
+    original_anchor: '#page=5'
+  - line: 444
+    heading: 1.   If an account pays or credits interest once a year, then the AER is equal to the
+    original_anchor: '#page=9'
+  - line: 470
+    heading: 2.    If an account pays interest at intervals greater than 1 year, the AER is the rate
+    original_anchor: '#page=10'
+  - line: 495
+    heading: 3.    Now suppose a deposit of £100 is to be made at the beginning of the first year
+    original_anchor: '#page=10'
+  - line: 539
+    heading: 4.   If in the above example there were not an additional deposit contracted in the
+    original_anchor: '#page=11'
+  - line: 554
+    heading: 5.   If an account pays interest more often than once a year, then the AER is
+    original_anchor: '#page=11'
+  - line: 584
+    heading: 6.   A short-term bond, for example an 8-month bond paying 5.5% per annum, has to
+    original_anchor: '#page=11'
+  - line: 618
+    heading: 7.   Unconditional bonuses, for example a launch bonus of 0.5% paid at least until 30
+    original_anchor: '#page=12'
+  - line: 658
+    heading: 8.    Finally, consider a hypothetical product with irregular (but committed) cash flows.
+    original_anchor: '#page=13'
+  - line: 838
+    heading: 1. To ensure that AER properly reflects a lower cash holding rate prior to investment
+    original_anchor: '#page=16'
+  - line: 844
+    heading: 2. To extend the period before advertising needs to be updated with a new recalculated
+    original_anchor: '#page=16'
+  - line: 851
+    heading: AER                             AER
+    original_anchor: '#page=16'
+  - line: 857
+    heading: ACCOUNT
+    original_anchor: '#page=16'
+  - line: 892
+    heading: AER                       AER
+    original_anchor: '#page=17'
+  - line: 898
+    heading: ACCOUNT
+    original_anchor: '#page=17'
+pages:
+  - page: 1
+    start_line: 1
+  - page: 2
+    start_line: 47
+  - page: 3
+    start_line: 101
+  - page: 4
+    start_line: 149
+  - page: 5
+    start_line: 197
+  - page: 6
+    start_line: 246
+  - page: 7
+    start_line: 304
+  - page: 8
+    start_line: 364
+  - page: 9
+    start_line: 412
+  - page: 10
+    start_line: 465
+  - page: 11
+    start_line: 522
+  - page: 12
+    start_line: 588
+  - page: 13
+    start_line: 653
+  - page: 14
+    start_line: 711
+  - page: 15
+    start_line: 772
+  - page: 16
+    start_line: 820
+  - page: 17
+    start_line: 872
+  - page: 18
+    start_line: 922
+  - page: 19
+    start_line: 970
+  - page: 20
+    start_line: 1018
+versions:
+  - date: "2026-03-13"
+    hash: sha256:104e05cfb2320c168537a53b039264fa9c0d36be94e46eda109332d38764b453
+    note: Initial capture
+---
+Annual Equivalent Rate (AER) Practice Note
+January 2025
+
+
+
+Guidance for banks and building societies
+UK Finance, 1 Angel Court, London EC2R 7HJ
+The Building Societies Association, York House, 23 Kingsway, London WC2B 6UJ
+
+
+
+Introduction
+This “Annual Equivalent Rate (AER) Practice Note ” (Practice Note), draws together key
+points from, and replaces the “Code of Conduct for the Advertising of Interest Bearing
+Accounts” (the Code) and the “Calculation of the Annual Equivalent Rate (AER) appendix to
+the Code”, which were in place between 1985 and 2024. It is published jointly by UK Finance
+and the Building Societies Association (BSA).
+
+This Practice Note is for guidance only. Banks and building societies are free to reach their
+own conclusions on interpretation and, for that reason, this document is intended primarily
+for the use of banks and building societies and their professional advisers. However, a copy
+of this Practice Note has been sent to the Financial Conduct Authority, which is responsible
+for monitoring compliance with the Payment Services Regulations 2017 (PSR) and its
+Handbook, in particular the Banking Conduct of Business Sourcebook (BCOBS).
+
+
+
+General
+1. The terms of this Practice Note apply to the advertising of all interest bearing accounts
+maintained within the United Kingdom by banks and building societies.
+
+'Interest bearing accounts' includes current accounts which pay interest on credit balances.
+
+
+
+Statement of Interest Rates
+2. Where interest rates are advertised, these must be described as follows:
+
+   a. X% gross
+
+   b. Y% tax free, and
+
+   c. Z% Annual Equivalent Rate ("AER")
+
+
+                                               1
+where:
+
+   a. is the Gross Interest Rate payable before the deduction of income tax at the rate
+      specified by law (the "specified rate"); an explanatory phrase conveying this meaning
+      must be used in conjunction with this expression.
+
+   b. is the tax free Rate of interest payable where interest is exempt from income tax. An
+      explanatory phrase conveying this meaning must be used in conjunction with this
+      expression.
+
+   c. is a notional rate which illustrates the Gross Interest Rate (excluding any conditional
+      bonus payable) as if paid and compounded on an annual basis. An explanatory
+      phrase conveying this meaning must be used in conjunction with this expression. Any
+      assumptions made in calculating the rate should be stated. e.g. if interest is not paid
+      into the account and compounded then the AER will not be achieved.
+
+In the case of a table or list of rates, the words "gross", "tax free" and "AER" as appropriate
+need not appear after each rate. However, it must be clear which term applies to which rate,
+for example, by the use of column headings or footnotes.
+
+The above paragraph puts beyond doubt the fact that any advertisement listing a series of
+rates, for example, when comparing competitors' products, need only ensure that the
+appropriate term is clear. This applies the provisions of general notifications of rates (see
+Section 7) to advertisements.
+
+The AER should be quoted, in respect of the Gross Interest Rate only, in every
+advertisement where an interest rate is quoted.
+
+This means that all advertisements include one rate which is capable of comparison across
+all advertisements, regardless of product provider and how interest is calculated and paid.
+The AER is a truly reflective rate, taking into account the frequency with which the product
+has interest paid or compounded. So, for example, if two products pay the same Gross
+Interest Rate of interest but one pays or compounds interest more frequently than the other,
+the account which pays or compounds interest more frequently will have a higher AER.
+
+It is suggested that wording along the following lines should be used (for example, in leaflets,
+supporting wording of advertisements etc.) to explain the AER:
+
+"AER stands for Annual Equivalent Rate and illustrates what the interest rate would be if
+interest was paid and compounded once each year. [As every advertisement for a savings
+product which quotes an interest rate will contain an AER, you will be able to compare more
+easily what return you can expect from your savings over time.]"
+
+(The first sentence could be used alone to cut down length).
+
+The explanation of the AER, “gross”, or ”tax free” need not be included in television; radio;
+telephone; SMS; mobile application; social media; paid search or banner advertisements.
+
+Advertisements which do not quote a specific rate of interest, for example, which simply
+state that the rate will be x% below base rate, do not need to quote an AER.
+
+
+
+                                               2
+AER Prominence
+3. Advertisements which quote a rate of interest must quote the AER and either the Gross
+Interest Rate or the tax free Rate depending on the product. e.g. the AER and the tax free
+Rate should be used for Cash ISAs. No rate or return shall be given greater prominence
+than the AER. For illustrative purposes, advertisements may also include an AER including
+conditional bonuses. However, this rate must be given the same prominence as the Gross
+Interest Rate and the AER and must be described as "AER including conditional bonuses".
+Where Gross Interest Rates are quoted on the basis of other than a 12 month period, this
+must be clearly stated. Where an interest rate is calculated on a basis other than actual/365,
+the basis should be stated and the AER should nonetheless be calculated on an actual/365
+basis.
+
+“Actual/365” means that interest is calculated by taking the balance multiplied by the annual
+interest rate divided by 100, multiplied by the number of calendar days that the balance is
+held, divided by 365 in a normal year or by 365 or 366 days in a leap year. If making an
+adjustment for AER purposes, the divisor should be 365 in all years.
+
+Because the AER will be the one rate that customers will be able to use to compare all
+products, it must be given equal prominence as the Gross Interest Rate (i.e. the gross or tax
+free rate). However, if the AER is exactly the same as the Gross Interest Rate, there is no
+need to quote the same rate twice - it is enough to state, for example, "5% gross/AER".
+
+An AER including conditional bonuses (paid, for example, if the customer makes only a
+certain number of withdrawals each year) can only be included if the AER is also quoted and
+given the same prominence.
+
+4. Advertisements which quote a rate of interest must contain the following specific
+information:
+
+   a. the frequency of payment of interest.
+   b. either -
+        • a statement that the Gross Interest Rate is fixed for any specified term; or
+        • a statement that the interest rate is subject to variation.
+   c. the minimum amount which must be deposited and/or the number of withdrawals
+      which must not be exceeded to achieve the advertised rate of interest.
+
+This provides that, if a rate of interest is quoted in an advertisement, the advertisement must
+also state how often interest will be paid (for example, monthly, annually or after five years);
+whether the interest is fixed or variable (if fixed, the term must be stated); and any minimum
+deposit necessary. The information in 4a and 4b is not required to be contained in any
+particular part of the advertisement. However, institutions should take care to ensure, in
+respect of printed advertisements, that any footnotes are clear and legible. The information
+required under 4c must be prominent and displayed in the main part of the advertisement.
+
+
+
+
+                                               3
+Withdrawals
+5. Advertisements which quote a rate of interest must clearly explain in the main part of the
+advertisement:
+
+   a. Any key restrictions on the number and/or amount of withdrawals that can be made;
+   b. Any requirement to give notice or satisfy any other key condition before a withdrawal
+      is made;
+
+Additionally, any charges or lower interest rates must be clearly stated with appropriate
+prominence, ensuring all advertisements/content are clear, fair and not misleading. This will
+enable the customer to make an informed choice regarding the suitability of the product for
+their circumstances.
+
+5a and 5b refer to limitations relating to the product itself and not to any limitation imposed
+generally on cash withdrawals or conditions which must be satisfied for security or practical
+reasons.
+
+The disclosure requirement relating to any charges or lower interest rates does not extend to
+early termination charges.
+
+For clarity, this section is only relevant to a product which may remain open after a
+withdrawal has been made. It does not apply to products where full closure is a requirement
+if a customer wishes to withdraw their funds.
+
+
+
+Bonuses
+6. Advertisements which quote a rate of interest must clearly explain the following in the
+main part of the advertisement:
+
+   a. Accounts which advertise a bonus rate of interest, payable for a specific period, must
+      ensure that the % amount/fixed amount and duration of the bonus is clearly stated.
+   b. The terms which apply to the payment of any other bonus must be clearly stated.
+      including the % amount/fixed amount of the bonus.
+   c. Where a bonus rate or amount is stated, it should be clear whether it is fixed or
+      variable.
+
+This provision ensures that bonuses are explained clearly and that key information must be
+stated in the main part of the advertisement and not in the footnotes.
+
+If a bonus rate is payable until a fixed date of less than 12 months from the first day funds
+can be deposited into the product (for example, "payable until 1 December" and the product
+is launched on 1 May), the AER will change over the period. The AER at the time of the
+product launch will be higher than that towards the end of the bonus period. This gives rise
+to scope for the AER to be misleading if it is not recalculated on a regular basis. It is not,
+therefore, enough for advertisements simply to state in the supporting wording the date of
+
+                                               4
+calculation of the AER. Instead, AERs on such accounts should be recalculated on a monthly
+basis. This means that posters and leaflets, as well as newspaper advertisements etc, need
+to be changed monthly, if such accounts are being advertised.
+
+To re-emphasise, an AER including conditional bonuses can only be included if the AER is
+also quoted and given the same prominence.
+
+
+
+Notices of Rates
+7. A general notice to customers of rates need only comply with Sections 2 and 3 above In
+the case of such notices or lists, the words "gross", "tax free" and "AER" as appropriate need
+not appear after each rate. However, it must be clear from the whole of the notice or list
+which term applies to which rate, for example, by the use of column headings or footnotes.
+
+This means that general notices of rates, for example, which generally are not inherently
+designed to sell products but to inform customers of rates, need comply only with Sections 2
+and 3 above. However, it may also be necessary to give some, or all of the information set
+out in Sections 4 and 6 above in order to identify the amount(s) and/or interest frequencies
+to which the specified rates apply.
+
+
+
+"Instant Access"
+8.
+     a. An account may not be described as having instant access or "immediate
+        withdrawal" or any similar statement where withdrawal must be other than by cash.
+     b. Any conditions attached to 'instant' or 'immediate' (or any other similar statement)
+        withdrawal must be made clear, for example if:
+         • the number of withdrawals that may be made without transactional charges, loss
+            of interest, loss of bonus or any similar charge being made, is limited.
+         • the amount of cash that can be withdrawn in a transaction is limited by the
+            account should be clearly stated in the main part of the advertisement.
+
+These provisions relate to an historic Advertising Standards Authority decision regarding the
+use of the words "instant access". "Instant access" and any similar wording should be used
+only where it is possible to make cash withdrawals (without charge), whether in a branch or
+via an ATM. Accounts which do not offer this facility should not be described as "instant
+access". Accounts which themselves do not have the facility to withdraw cash, but which
+allow immediate real-time transfers to a side account from which cash may be withdrawn are
+also acceptable. UK Finance and the BSA have both recommended that, to avoid confusion,
+accounts should not have "instant access" in their titles if they do not actually offer instant
+access.
+
+However, it is possible to describe an account as having "instant access", where the number
+of withdrawals that may be made is limited for good reason. For example, it would be within
+the spirit of Section 8b to limit the number of withdrawals on a savings account to ensure
+
+                                               5
+that it was not used as a money transmission account, but it would not be appropriate to limit
+withdrawals too tightly. Any restrictions and charges (howsoever calculated and described)
+must be stated in the main part of the advertisement and not in the supporting text.
+
+If the terms of the product limit the amount of cash that can be withdrawn in a single
+transaction, that must be clearly stated in the main part of the advert, together with the
+amount of the limit. Again, as with Section 8a, this refers to a particular limitation on the
+product itself, and not to a general floor limit imposed by the institution across the board, for
+example, for security or other practical reasons.
+
+
+
+Calculation of the Annual Equivalent Rate (AER)
+a)   The most general case of the calculation is the rate of interest which, if applied each
+     year to the deposits made by the customer, would result in the same end-value as the
+     Gross Interest Rates and interest bonuses (if any), i.e. the solution to the following
+     equation:
+
+                  m
+                              
+                                         1+m- n     m     m      ij 
+                    Dn 1 +                     =  Dn   (1+     ) ( = T )
+                            100                         j=n   100 
+                 n=1                                n=1              
+
+
+Where:
+
+        is the Annual Equivalent Rate
+Dn       is the deposit to be made at the start of year n
+Ij       is the interest rate (including bonuses, if any) payable at the end of year j
+m        is the number of years for which the product has to be held
+T        is the amount the depositor will receive at the end of year m
+
+
+If deposits are made at more frequent intervals than whole years, the calculation can be
+made using monthly interest and the result expressed as an annual rate using the formula
+given at d) below.
+
+The equation, in its general form, is soluble only by iterative computation. For specific cases,
+general solutions are available and these can be used.
+
+b)   If only one deposit is made at the start of the period, then the AER is:
+
+
+                                         m
+                                                         in  
+                                                              
+
+                             =   m  (1+                )  - 1  100
+                                                      100  
+                                         n=1
+                                                                   
+
+
+
+
+                                                        6
+c)   If the interest rate is quoted as the total payable over the period (longer than one year)
+     on the initial deposit, then the AER is:
+
+
+                                        
+                                        r     
+                                
+                             =   1+
+                                    m       - 1  100
+                                      100 
+                                               
+                                             
+
+
+
+where: r is the total interest rate payable over m years.
+
+
+
+d)   Where interest is payable more frequently than annually, then the AER is:
+
+
+                                           i   
+                                                   n
+                                                        
+                                   
+                                 =  1+            - 1  100
+                                       n  100       
+                                                       
+
+
+
+where: n is the number of times per year that interest is to be paid
+       i is the annual rate to be paid n times per year
+
+
+Notes
+The general formula set out at a) is complicated because it attempts to cater for any sort of
+deposit. The following notes aim to clarify its assumptions and application:
+
+     •   It envisages a depositor making a series of payments (some of which may be zero)
+         into the account at annual intervals and the product provider paying or crediting
+         interest annually which may be at a different rate (possibly zero) each year.
+     •   Deposits are assumed to be made at the beginning of a year and interest paid at the
+         end of the year.
+     •   If deposits or interest payments are not made on anniversaries of the start date, the
+         formula can be operated using shorter periods and fractions of the annual rate(s),
+         and the answer compounded up to an annual rate using the formula at d).
+     •   The interest payable in each year is the amount actually payable or to be added to
+         principal, not an accrual, so that, if paying 7% a year (simple) after 2 years, the
+         interest is 0% in year 1 and 14% in year 2.
+     •   The formula treats all interest as compounded because interest paid (say) annually is
+         worth more to the depositor than interest paid only after two years. Interest paid is
+         compounded at the Gross Interest Rate to avoid the introduction of an arbitrary
+         reinvestment rate.
+
+
+
+
+                                                7
+Guidelines relating to AER calculations
+In order to ensure consistency of calculation and fair comparison of products, the AER
+should be derived on the following basis:
+
+A1     The only changes to the amount deposited to be taken into account are those
+       that are required by the terms of the account. So, for example, on an account
+       from which withdrawals may be made, the AER calculation is based on an initial
+       deposit with no subsequent movements. On the other hand, on a monthly savings
+       account, each monthly deposit is taken into the calculation. If certain deposits are
+       required to qualify for a conditional bonus, then the AER including conditional
+       bonuses must be calculated assuming that the necessary deposits have been made.
+       See Section 3 above on ‘AER Prominence’.
+
+A2     The only changes to rates that are taken into account are those that are stated
+       at the outset. No allowance is made for change that may occur because market
+       rates generally move up or down. So, for example, if an account has a rate which will
+       increase the longer a deposit is held, the higher rate will be used after the requisite
+       time. Where an initial higher rate is guaranteed for a number of months (an
+       “unconditional bonus”), the rate after that period will reduce to the “normal” rate
+       applicable at the time of the advertisement. If a monthly savings account has a tiered
+       interest rate, then the appropriate rate will be used as the balance builds up. Where a
+       deposit will automatically default into another product on maturity within the next 12
+       months and the customer is unable to exit the default product itself (or only exit by
+       incurring a fee/charge) until maturity then the expected rate for the default product at
+       the time of the advertisement should be reflected in the ‘blended’ AER calculation.
+
+A3     If an account has a fixed or minimum term, the calculation is to be made for
+       that period. If the term is indefinite, the calculation is to be done on the first year, or
+       until the first interest payment if that is after one year. If a conditional bonus requires
+       that you leave the deposit in the account for a certain time, then the AER including
+       conditional bonuses will be calculated over that period. See Section 3 above on ‘AER
+       Prominence’. Where accounts default into another product on maturity with no option
+       to exit prior to maturity of the default product (or only exit by incurring a fee/charge)
+       the calculation should use the maturity date of the default product as the fixed term
+       reference point.
+
+A4     All interest paid is treated as if it is invested and earns a rate of interest equal
+       to that being earned on the deposit. This may, in fact, happen if the interest is
+       added to principal. However, even on an account making monthly interest payments,
+       this assumption is made to illustrate the value of receiving these payments during the
+       year. If a deposit has a very short term (for example, a six-month bond), for AER
+       purposes it is assumed, again for illustrative and comparative purposes, that the
+       principal and interest can be invested at the end of the period at the same rate for the
+       rest of the year. Consequently, providers should not ‘underquote’ the AER for
+       deposits of less than one year to maturity by assuming a reinvestment rate other than
+
+
+                                                8
+         the gross rate of the original investment, unless a leap year applies. The text of the
+         advertisement should make this clear when describing the basis on which AER is
+         calculated for short-term deposits.
+
+A5       AERs are to be rounded and displayed up to two decimal places.
+
+A6       Where the AER varies according to the date of the deposit (for example, where
+         an unconditional bonus is offered until a fixed calendar date or a different
+         gross rate applies for deposits received on application pending investment
+         into the product):
+     •   All advertising should include a statement that the AER assumes that investment was
+         made on a specified date.
+     •   The date specified should be:
+             o relevant to the date the advertisement or literature will appear or be available
+                 and not more than 1 month away from that date.
+             o for deposits where a different gross rate applies for money received on
+                 application pending investment into the product – the specified date should be
+                 that which the provider first expects to receive funds from customers.
+     •   Advertisements showing a recalculated AER will need to be amended on a monthly
+         basis, unless the recalculated AER would be higher than the originally advertised
+         rate. (This allows providers some operational flexibility regarding the updating of
+         advertisements where a short-term period of underquoting AER can be justified given
+         the operational benefits).
+
+A7       Where regular monthly savings products are advertised which have a limited
+         life of one year and interest is only credited once a year the AER should not
+         take account of any interest earned after the account matures. The AER is
+         deemed to be the same as the nominal rate for the account.
+
+
+
+ Worked Examples
+1.   If an account pays or credits interest once a year, then the AER is equal to the
+     gross rate.
+
+In this simple case of a single deposit of £100 at the beginning of Year 1 and interest of 10%
+payable at the end, the formula reduces to:
+
+
+                                 
+                                       1 + 1 - 1(=1)
+                                                                10 
+                       £100 1+                       = £100 1+     ( = £110 )
+                             100                             100 
+
+
+
+and clearly  is 10, and the AER is 10.00%, as you would expect.
+
+
+
+
+                                                         9
+It follows that if an account pays interest once a year on say the 31 March then the AER, no
+matter when the account is advertised, will always equal the gross rate.
+
+
+
+2.    If an account pays interest at intervals greater than 1 year, the AER is the rate
+      which will give the same answer if applied and compounded each year.
+
+In the simple interest example of 7% for two years quoted above, using £100:
+
+
+                      
+                           1 + 2 -1(= 2)
+                                                     0(= i1 )   14(= i2 ) 
+           £100 1 +                      = £100 1 +           1 +         ( = £114 )
+                 100                                 100          100 
+
+
+
+                                   114     
+                           so  =  2   - 1  100 = 6.771...
+                                    100     
+
+
+
+(which can also be reached using formula (c) directly) and the resultant AER is 6.77% to two
+decimal places.
+
+
+
+3.    Now suppose a deposit of £100 is to be made at the beginning of the first year
+      and £50 to be added at the start of Year 2 (as part of the product requirement, not
+      an option), and interest is to be 10% for Year 1 and 11% for Year 2 (e.g. an
+      escalating interest rate, not a prediction of interest rate movements).
+
+The calculation should be approached as follows:
+
+First work out what the eventual return at the end of year 2 (T) is going to be, using the right
+hand side of the formula:
+
+       2   2         i j 
+T =  Dn   1 +          
+                    100    
+    n=1    j = n
+
+
+                     10(= i1 )   11(= i 2 )                  11(= i 2 ) 
+  = £100(= D1 )  1 +           1 +           + £50(= D2 ) 1 +         
+                         100        100                         100 
+     = £177.60
+
+Then find a value for  that satisfies the left hand side:
+
+
+
+
+                                                        10
+                         
+                                1+m - n
+                m
+                   
+T = £177.60 =  Dn 1 +   
+              n=1   100 
+                                                    
+                                          2
+                                               
+            = £100(= D1 ) 1 +    + £50(= D2 ) 1 +   
+                           100                 100 
+
+Trying  = 10.5 gives £177.353; 10.6 gives £177.624; 10.59 gives £177.596.
+This process of iterative computation yields the AER of 10.59% to two decimal places.
+
+
+
+4.   If in the above example there were not an additional deposit contracted in the
+     second year, the calculation is simpler and formula (b) can be used:
+
+
+       10(= i )   11(= i )   
+ =   2 1+     1
+                      1+     2
+                                   - 1  100 = 10.498...
+            100       100     
+    
+
+giving an AER of 10.50% to two decimal places.
+
+
+
+5.   If an account pays interest more often than once a year, then the AER is
+     calculated by adding each interest payment to the deposit and calculating the
+     next interest payment on the total – compounding the interest.
+
+The treatment of monthly income accounts shows the basic use of formula (d).
+
+Suppose a fixed deposit offers two options:
+   A. interest paid annually of 6% per annum
+   B. interest paid monthly at a rate of 5.8% per annum
+
+Option A will have an AER of 6.00% (see example 1 above).
+
+For option B, the AER is calculated using formula (d) as:
+
+
+            5.8(= i)         
+                                 12
+                                     
+   
+ = 1 +                       - 1 100 = 5.956...
+     12(months per year)100      
+                                    
+
+giving an AER of 5.96% to two decimal places.
+
+This demonstrates the value to the depositor of the monthly interest but also shows that the
+two options are not quite identical in terms of return.
+
+
+
+6.   A short-term bond, for example an 8-month bond paying 5.5% per annum, has to
+     be treated using a combination of formulae (c) and (d).
+
+                                                11
+First of all, use formula (c) to find the AER on a monthly basis:
+
+
+              5.5  8 
+       100 +            
+m =   8        12   - 1  100
+            100         
+                        
+                        
+= 0.451...  5.413...% per annumpaid monthly
+
+Then use formula (d) to convert this to an annually compounded rate:
+
+
+                                    5.413...      
+                                                     12
+                                                           
+                             
+                           = 1 +
+                                                      - 1  100 = 5.5501...
+                               12( months)  100       
+                                                          
+
+
+
+giving an AER of 5.55% to two decimal places. This is higher than the gross rate reflecting
+the value of interest paid after 8 months rather than a year.
+
+
+
+7.   Unconditional bonuses, for example a launch bonus of 0.5% paid at least until 30
+     June 2000 (this example was drafted in November 1999) on an account paying 5%
+     annually on 30 April without a fixed term, are treated as a step down in the rate
+     when the guarantee expires. So, assuming a deposit on 1 November 1999, the
+     depositor would receive 5.5% for 8 months and then 5% for 4 months (following
+     guideline A3, the calculation is for the first year of the deposit).
+
+Formula (b) can be applied in two half-years:
+
+
+             5.5                5.5  2 + 5  4                 
+                                                                      
+                  (= 2.75 )                      (= 2.583 ...) 
+                                                                      
+ h =   2 1+ 2             1 +       12                        - 1  100
+                   100                        100                 
+                                                               
+                                                                
+    = 2.666...  5.333 ... per annum paid half − yearly
+
+Again, use formula (d) to convert this to an annually compounded rate:
+
+
+         5.333...      
+                          2
+   
+ = 1 +                - 1  100 = 5.4043...
+     2( halves)  100  
+                            
+
+Giving an AER of 5.40% to two decimal places. The advertisement would contain a
+statement “AER calculated assuming an investment on 1 November 1999.”. If it were a
+
+
+                                                       12
+branch leaflet, it would be displayed only during November 1999 (see Section 6 above on
+‘Bonuses’).
+
+
+
+8.    Finally, consider a hypothetical product with irregular (but committed) cash flows.
+
+The pattern of this product is:
+
+     •     Deposit £3,000 on 1 April in year 1, then
+     •     £1,800 on 1 January each year for three years, and then
+     •     £600 on 1 January in year 5,
+     •     a total of £9,000 to be repaid on 1 April in year 6.
+
+
+Interest at 7% per annum is added to the account on 31 December each year and at
+repayment, together with a 2% bonus of the total amount deposited (£9,000) for making the
+required deposits and holding to maturity.
+
+Because the subsequent deposits and interest are not added on the anniversary of the first
+deposit, the AER including conditional bonuses has to be calculated on a quarterly basis and
+then compounded up to an annual rate. The calculation (in summary here, the table
+belowshows the full calculation) is as follows:
+
+First calculate the total T to be repaid at the end of the contract, using the formula:
+
+
+                  20 
+         20(quarters)
+                             i 
+T =         D     1+ j  
+               n
+                  j=n     100  
+         n=1     
+                         7                 7                     7          
+                            3(= i3 )         4(= i7 )            (= i20 )  
+     = £3000(= D1 )  1 + 4             1 + 4             ... 1 + 4          
+                            100               100                  100  
+                                                                            
+                                                                            
+                              7                 7                      7          
+                                 4(= i7 )         4(= i11 )            (= i20 )  
+         + £1800( = D4 )  1 + 4             1 + 4              ... 1 + 4          
+                                 100               100                   100  
+                                                                                  
+                                                                                  
+           ...
+                             7                  7          
+                                4(= i19 )        (= i20 )  
+         + £600(= D16 )  1 + 4              1 + 4          
+                                100               100      
+                                                           
+                                                           
+         + £180 (bonusof 2% of £9,000)
+
+     = £11,785.78
+
+                                                   13
+Then find the AER including conditional bonuses by solving:
+
+
+                           
+                                    21- n
+                  20
+                      
+T = £11,785.78 =  Dn 1+   
+                 n=1   100 
+                                                           
+                                            20                           17
+                                                       
+                 = £3000( = D1 ) 1+    + £1800(= D4 ) 1+   
+                                  100                  100 
+                                             
+                                                  5
+                                        
+                   + ... + £600(= D16 ) 1+   
+                                         100 
+
+which, by trying various values, yields  = 1.8127… ≡ 7.2511...% per annum paid quarterly.
+
+Use formula (d) to convert this to an annually compounded rate giving an AER including
+conditional bonuses of 7.45% to two decimal places.
+
+
+                                 7.2511...      
+                                                   4
+                          
+                        = 1 +                  - 1  100 = 7.4506...
+                            4( quarters)  100  
+                                                     
+
+
+
+Detail of the calculation of T:
+
+
+
+          n                Dn (£)                in (%)          1 + in / 100        T = sum of:
+
+
+          1                 3000                            0                            4,211.27
+
+          2                                                 0
+
+          3                                               5.25          1.0525
+
+          4                 1800                            0                            2,400.72
+
+          5                                                 0
+
+          6                                                 0
+
+          7                                                 7                 1.07
+
+          8                 1800                            0                            2,243.67
+
+          9                                                 0
+
+                                                  14
+         10                                             0
+
+         11                                             7                1.07
+
+         12                1800                         0                              2,096.88
+
+         13                                             0
+
+         14                                             0
+
+         15                                             7                1.07
+
+         16                 600                         0                                653.24
+
+         17                                             0
+
+         18                                             0
+
+         19                                             7                1.07
+
+         20                                          1.75             1.0175
+
+                                    Bonus                                                180.00
+
+
+                                     Total                                            11,785.78
+
+
+
+Note: It is possible that the AER may very slightly depending on when the initial deposit is
+made relative to the first interest payment date. Where this is the case, either the
+assumption about this relationship should be clearly stated (see AER Guideline A7 above) or
+the lowest potential result should be used (this usually results when the period from initial
+deposit to first interest period is at a maximum).
+
+
+
+Additional Worked Examples linked to Specific AER Guidelines
+AER Guideline A4
+
+Short-term deposit with higher than normal interest rate.
+
+Guideline A4 explains that all interest paid is treated as if it is invested and earns a rate of
+interest equal to that being earned on the deposit. It goes on to say, “If the deposit has a
+very short term (for example, a six month bond), for AER purposes it is assumed, again for
+
+
+                                                15
+illustrative and comparative purposes, that the principal and interest can be invested at the
+end of the period at the same rate for the rest of the year.”
+
+Assume a deposit has a gross rate of 6% payable at maturity in 6 months’ time.
+
+A blended AER of 6.09% should be used by assuming reinvestment at the existing rate
+gross rate for the following 6 month period.
+
+AER calculation is: (((1+ 6/2*100))^2)-1)*100)
+
+Providers should not underquote in this scenario by rounding down to 6% but should
+consistently apply the guidelines which assumes reinvestment at the original gross rate for a
+following 6 month period.
+
+
+
+AER Guideline A6
+
+   1. To ensure that AER properly reflects a lower cash holding rate prior to investment
+      into the product proper, where this applies, by requiring the ‘specified date’ to be that
+      on which the provider first expects monies to be received in response to the
+      advertisement. This ensures that the AER reflects the maximum negative impact on
+      return from the lower initial cash holding rate (see AER Guideline A6 - Worked
+      Example 1 below).
+   2. To extend the period before advertising needs to be updated with a new recalculated
+      AER beyond 1 month, where the recalculated AER would be higher than the AER
+      used in the existing advertisement (see AER Guideline A6 - Worked Example 2
+      below).
+
+AER Guideline A6 - Worked Example 1
+
+                                             AER                             AER
+
+                                                                   (including Conditional
+                                                                           Bonus)
+
+ ONLINE SAVINGS                             2.87%                            N/A
+ ACCOUNT
+                                   Blended rate based on
+                                    specified date of 14
+                                   February when monies
+                                    first expected to be
+                                           received
+
+
+   •   Online savings account with standard rate of 3% (variable) and indeterminate
+       maturity date.
+
+
+
+
+                                              16
+   •   Minimum investment amount £1.
+
+   •   Financial promotion published on 14 February invites customers to subscribe to the
+       product with a closing date of 14 March.
+
+   •   Product first investment date is 1 April.
+
+   •   Any application monies are initially placed in a holding account which pays a lower
+       rate of 2% prior to being invested into the product on 1 April from when the standard
+       rate of 3% (variable) applies.
+
+   •   For the purposes of the AER calculation under Guideline A7 the ‘specified date’ on
+       which funds are first expected to be received for the purpose of the AER calculation
+       is 14 February, which assumes customers are able to submit funds with their
+       application online on the first day the advertisement appears.
+
+   •   AER is a blended rate of 2.87% (calculation is 2%*(46/365)+3%*(319/365)).
+
+AER Guideline A6 - Worked Example 2
+
+                                         AER                       AER
+
+                                                          (including Conditional
+                                                                  Bonus)
+
+ONLINE SAVINGS                          2.95%                       N/A
+ACCOUNT
+                              Blended rate based on
+                               specified date of 15
+                               March when monies
+                               first expected to be
+                                      received
+
+
+   •   Same savings product as AER Guideline 6 - Worked Example 1 above but with no
+       closing application date.
+
+   •   Under existing AER Guideline A7 the original financial promotion published on 14
+       February must be updated with a refreshed AER after 14 March. The proposed
+       revision to AER Guideline A7 permits the existing financial promotion to continue to
+       be used in the market as the quoted AER of 2.87% would be lower than a
+       recalculated AER of 2.95%.
+
+   •   For example - the recalculated AER to be used in a revised financial promotion to be
+       issued on 15 March, with a specified date of 15 March, would be 2.95% (AER
+       calculation is 2%*(17/365)+3%*(348/365)) and from 1 April onwards the
+       recalculated AER would be 3%.
+
+
+                                                17
+Explanation of the AER
+The following provides a simple explanation of the AER which is intended for distribution to
+staff and/or customers.
+
+AER – an explanation
+
+The Annual Equivalent Rate is a notional rate quoted in advertisements for interest-bearing
+accounts which illustrates the Gross Interest Rate (excluding any bonus interest payable) as
+if paid and compounded on an annual basis.
+
+
+Advertisements may also quote an AER including conditional bonuses clearly identified as
+such.
+
+   •   If an account pays or credits interest once a year, then the AER is equal to the gross
+       rate.
+
+   •   If an account pays interest more often than once a year, then the AER is calculated
+       by adding each interest payment to the deposit and calculating the next interest
+       payment on the total – compounding the interest.
+
+For example, an account offering 5% gross interest paid quarterly on £100 pays:
+
+   •   £1.25 (1.25% (¼ of 5%) of £100) after 3 months,
+   •   £1.26 (1.25% of £101.25 (£100 + £1.25)) after six months*,
+   •   £1.28 (1.25% of £102.51) after nine months, and
+   •   £1.30 at the end of the year (1.25% of £103.79),
+
+giving a total including interest of £105.09.
+
+The AER is thus 5.09%
+
+*In practice, the calculation is worked to more decimal places to avoid rounding errors.
+
+   •   If an account pays interest at intervals greater than 1 year, we are looking for a rate
+       which will give us the right answer if applied and compounded each year.
+
+For example, an account which pays 5% for five years but pays it only at the end of the five
+years will pay back £125 after the five years on £100 deposited (the original £100 plus £25
+interest).
+
+The AER is 4.56% and we can see how this works as follows:
+
+   •   £4.56 (4.56% of £100) would be the interest at the end of year 1,
+   •   £4.77 (4.56% of £104.56) at the end of year 2,
+
+
+                                                18
+    •   £4.99 (4.56% of £109.33) at the end of year 3,
+    •   £5.21 (4.56% of £114.32) at the end of year 4, and
+    •   £5.45 (4.56% of £119.53) at the end of year 5,
+
+giving a final total of £124.98.
+
+Not exactly £125 but as close as we can get to 2 decimal places (try the calculation with
+4.57% instead – you will get £125.05).
+
+    •   The AER for more complicated patterns of changing deposits and/or interest rates
+        can really be solved only by trial and error – a process best left to computers!
+
+The AER is a notional rate – it is not necessarily equal to the cash return because, in
+calculating it, we make assumptions:
+
+    •   The only changes to the amount deposited that are taken into account are those that
+        are required by the terms of the account. So, for example, on an account from which
+        you can make withdrawals, the assumption is that you make just an initial deposit
+        and leave it there. On the other hand, on a monthly savings account, it is assumed
+        that you will make the deposits each month. If certain deposits are required to qualify
+        for a conditional bonus, then the AER including conditional bonuses will be calculated
+        assuming that you have made the necessary deposits.
+
+    •   The only changes to rates that are taken into account are those that are stated at the
+        outset. No allowance is made for change that may occur because market rates
+        generally move up or down. So, for example, if an account has a rate which will
+        increase the longer a deposit is held, the higher rate will be used after the requisite
+        time. Where an initial higher rate is guaranteed for a number of months, the rate after
+        that will be assumed to reduce to the “normal” rate applicable at the time of the
+        advertisement. If a monthly savings account has a tiered interest rate, then the
+        appropriate rate will be used as the balance builds up.
+
+    •   If an account has a fixed or minimum term, the assumption will be made that you
+        leave your deposit there for that period. If the term is indefinite, the calculation is
+        done on the first year, or until the first interest payment if that is after one year. If a
+        conditional bonus requires that you leave the deposit in the account for a certain
+        time, then the AER including conditional bonuses will be calculated over that period.
+
+    •   All interest paid is treated as if it is invested and earns a rate of interest equal to that
+        being earned on your deposit. This may, in fact, happen if the interest is added to
+        principal. However, even on an account making monthly interest payments, this
+        assumption is made to illustrate the value to you of receiving these payments during
+        the year. If a deposit has a very short term (for example, a six-month bond), for AER
+        purposes, it is assumed that you can invest the principal and interest at the end of
+        the period at the same rate for the rest of the year.
+END
+
+                                                 19

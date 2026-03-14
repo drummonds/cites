@@ -24,9 +24,16 @@ var headingPattern = regexp.MustCompile(
 	`^(?:#{1,6}\s+.+|(?:\d+\.)+\s+.+|(?i:chapter|section|part|appendix)\s+.+|[A-Z][A-Z\s]{4,})$`,
 )
 
+// CaptureOpts configures optional capture behaviour.
+type CaptureOpts struct {
+	// PdfSavePath is the path to save the original PDF (only used for PDF sources).
+	// If empty, the original PDF is not saved.
+	PdfSavePath string
+}
+
 // Capture fetches or reads the source at the given location and extracts text.
 // location can be a URL or a local file path.
-func Capture(location, title string) (*source.Source, error) {
+func Capture(location, title string, opts ...CaptureOpts) (*source.Source, error) {
 	srcType, body, err := Extract(location)
 	if err != nil {
 		return nil, err
@@ -58,17 +65,60 @@ func Capture(location, title string) (*source.Source, error) {
 
 	// For PDF files, detect page boundaries and assign page anchors to sections.
 	if srcType == source.TypePDF {
-		// Try to get page boundaries from the file if it's a local path.
+		var pages []source.PageBreak
 		u, _ := url.Parse(location)
-		if u == nil || u.Scheme == "" {
-			if pages, err := CapturePDFPages(location); err == nil {
-				src.Meta.Pages = pages
-				assignPageAnchors(src)
+		if u != nil && (u.Scheme == "http" || u.Scheme == "https") {
+			pages, _ = capturePDFPagesFromURL(location)
+		} else {
+			pages, _ = CapturePDFPages(location)
+		}
+		if len(pages) > 0 {
+			src.Meta.Pages = pages
+			assignPageAnchors(src)
+		}
+
+		// Save original PDF if requested.
+		var opt CaptureOpts
+		if len(opts) > 0 {
+			opt = opts[0]
+		}
+		if opt.PdfSavePath != "" {
+			if saveErr := savePDF(location, opt.PdfSavePath); saveErr != nil {
+				return nil, fmt.Errorf("saving PDF: %w", saveErr)
 			}
+			src.Meta.OriginalFile = opt.PdfSavePath
 		}
 	}
 
 	return src, nil
+}
+
+// savePDF copies a PDF from location (URL or local file) to dst.
+func savePDF(location, dst string) error {
+	if err := os.MkdirAll(filepath.Dir(dst), 0755); err != nil {
+		return err
+	}
+	u, _ := url.Parse(location)
+	if u != nil && (u.Scheme == "http" || u.Scheme == "https") {
+		resp, err := http.Get(location)
+		if err != nil {
+			return err
+		}
+		defer resp.Body.Close()
+		f, err := os.Create(dst)
+		if err != nil {
+			return err
+		}
+		defer f.Close()
+		_, err = io.Copy(f, resp.Body)
+		return err
+	}
+	// Local file — copy.
+	data, err := os.ReadFile(location)
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(dst, data, 0644)
 }
 
 // Extract determines the source type and extracts plain text.
@@ -216,6 +266,30 @@ func CapturePDFPages(path string) ([]source.PageBreak, error) {
 		return nil, err
 	}
 	return detectPDFPages(raw), nil
+}
+
+// capturePDFPagesFromURL downloads a PDF from a URL to a temp file
+// and detects page boundaries from the raw pdftotext output.
+func capturePDFPagesFromURL(rawURL string) ([]source.PageBreak, error) {
+	resp, err := http.Get(rawURL)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	tmp, err := os.CreateTemp("", "cites-pages-*.pdf")
+	if err != nil {
+		return nil, err
+	}
+	defer os.Remove(tmp.Name())
+	defer tmp.Close()
+
+	if _, err := io.Copy(tmp, resp.Body); err != nil {
+		return nil, err
+	}
+	tmp.Close()
+
+	return CapturePDFPages(tmp.Name())
 }
 
 // extractPDFFromReader writes to a temp file then calls pdftotext.

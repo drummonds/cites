@@ -13,17 +13,18 @@ Two-phase pipeline with optional check:
 - For PDFs: detects page boundaries via form feed characters, records `pages` metadata
 - Computes SHA-256 content hash
 - Records metadata in YAML frontmatter
-- Output: `.txt` file with frontmatter + extracted text in `research/sources/`
+- Output: `.yaml` file with frontmatter + extracted text in `research/sources/`
 
-### Phase 2: Render (`cites render <source-file> [output-path]`)
+### Phase 2: Render (`cites render [--base PATH] [--pdf PATH] [--lines-per-page N] <source.yaml> <output-dir>`)
 
 - Input: captured source file
-- Output: HTML reference document in `docs/`
-  - Metadata header block (title, URL, dates, hash status)
-  - Line-numbered text with per-line anchors (`#L42`)
-  - Each line number links to closest section anchor in original source
-  - Change detection: re-hash content, flag if source has been modified
-  - **PDF sources with page data**: side-by-side layout with page navigation linking to source PDF pages
+- Output: paginated HTML reference in `docs/rN/`
+  - `index.html` — metadata, section TOC, page list
+  - `p01.html`, `p02.html`, … — per-page line-numbered text with anchors (`#l42`)
+  - `p01.png`, `p02.png`, … — PDF page thumbnails (when original PDF available)
+  - PDFs: one HTML page per PDF page; HTML/TXT: ~100 lines per page
+  - Side-by-side layout with thumbnails for PDF sources
+  - Breadcrumbs: `cites › Title › Page N`
 
 ### Phase 3: Check (`cites check [--update] <source-file>`)
 
@@ -77,6 +78,7 @@ versions:
 | `content_hash` | string | yes | `sha256:<hex>` of body text |
 | `sections` | list | no | Detected headings with line numbers and original anchors |
 | `pages` | list | no | PDF page boundaries (page number → start line) |
+| `original_file` | string | no | Relative path to saved original PDF |
 | `versions` | list | no | Version history (date, hash, note) |
 
 ## Directory layout

@@ -8,7 +8,7 @@ It shows what the interest rate would be if interest were paid and compounded on
 ## Gross rate and AER relationship
 
 <!-- TODO: Add explicit gross rate / AER relationship section -->
-<!-- See: sources/aer-practice-note-2025.txt#L__-L__ -->
+<!-- See: sources/aer-practice-note-2025.yaml#L__-L__ -->
 
 ## APR vs AER
 
@@ -16,4 +16,4 @@ It shows what the interest rate would be if interest were paid and compounded on
 
 ## Sources
 
-- [AER Practice Note, January 2024](sources/aer-practice-note-2025.txt) — UK Finance
+- [AER Practice Note, January 2024](sources/aer-practice-note-2025.yaml) — UK Finance

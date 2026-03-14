@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AER Practice Note — Source Reference</title>
+  <style>
+    :root { --bg: #fff; --fg: #1a1a1a; --muted: #666; --border: #ddd; --link: #0366d6; --line-bg: #f6f8fa; --topbar-bg: #0366d6; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d1117; --fg: #c9d1d9; --muted: #8b949e; --border: #30363d; --link: #58a6ff; --line-bg: #161b22; --topbar-bg: #1f6feb; }
+    }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; background: var(--bg); color: var(--fg); }
+    a { color: var(--link); }
+    .topbar { background: var(--topbar-bg); color: #fff; padding: 0.5rem 1.5rem; margin-bottom: 1.5rem; border-radius: 6px; font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; }
+    .topbar a { color: #fff; text-decoration: none; font-weight: 600; }
+    .topbar a:hover { text-decoration: underline; }
+    .topbar .sep { opacity: 0.6; }
+    .meta { border: 1px solid var(--border); border-radius: 6px; padding: 1rem 1.5rem; margin-bottom: 2rem; background: var(--line-bg); }
+    .meta h1 { margin: 0 0 0.5rem; font-size: 1.4rem; }
+    .meta dl { display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 1rem; margin: 0; }
+    .meta dt { font-weight: 600; color: var(--muted); }
+    .meta dd { margin: 0; }
+    .hash-ok { color: #2ea043; }
+    .hash-changed { color: #d73a49; font-weight: bold; }
+    .sections { margin-bottom: 2rem; }
+    .sections summary { cursor: pointer; font-weight: 600; }
+    .sections ul { list-style: none; padding-left: 1rem; }
+    .source-text { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 0.85rem; line-height: 1.6; }
+    .source-line { display: flex; }
+    .source-line:target { background: #fff8c5; }
+    @media (prefers-color-scheme: dark) { .source-line:target { background: #3b2e00; } }
+    .line-num { flex: 0 0 5ch; text-align: right; padding-right: 1ch; color: var(--muted); user-select: none; }
+    .line-num a { color: inherit; text-decoration: none; }
+    .line-num a:hover { color: var(--link); }
+    .line-text { flex: 1; white-space: pre-wrap; word-break: break-word; }
+    .section-heading { font-weight: bold; color: var(--link); }
+    .page-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr)); gap: 0.5rem; margin: 1rem 0; }
+    .page-list a { display: block; padding: 0.5rem; border: 1px solid var(--border); border-radius: 4px; text-align: center; text-decoration: none; }
+    .page-list a:hover { background: var(--line-bg); }
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0; padding: 0.5rem 0; border-top: 1px solid var(--border); }
+    .nav-bar a { text-decoration: none; padding: 0.25rem 0.75rem; border: 1px solid var(--border); border-radius: 4px; }
+    .nav-bar a:hover { background: var(--line-bg); }
+    .nav-bar .disabled { color: var(--muted); border-color: var(--border); pointer-events: none; opacity: 0.4; }
+    .side-layout { display: grid; grid-template-columns: 200px 1fr; gap: 1rem; }
+    .thumb img { max-width: 100%; border: 1px solid var(--border); border-radius: 4px; }
+    @media (max-width: 700px) { .side-layout { grid-template-columns: 1fr; } }
+
+    .toc { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    .toc th { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 2px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+    .toc td { padding: 0.25rem 0.75rem; border-bottom: 1px solid var(--border); }
+    .toc .page-row { background: var(--line-bg); font-weight: 600; }
+    .toc .page-row td { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+    .toc .section-row td { padding-left: 2rem; font-weight: normal; }
+    .toc a { text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    .version-current { font-weight: 600; }
+    .version-current::before { content: ""; }
+  </style>
+</head>
+<body>
+
+<nav class="topbar"><a href="../index.html">cites</a> <span class="sep">›</span> AER Practice Note</nav>
+
+<div class="meta">
+  <h1>AER Practice Note</h1>
+  <dl>
+    <dt>Source</dt><dd><a href="https://www.ukfinance.org.uk/system/files/2025-02/Annual%20Equivalent%20Rate%20AER%20practice%20note_0.pdf">https://www.ukfinance.org.uk/system/files/2025-02/Annual%20Equivalent%20Rate%20AER%20practice%20note_0.pdf</a></dd>
+    <dt>Type</dt><dd>pdf</dd>
+    
+    <dt>First captured</dt><dd>2026-03-13 18:56 UTC</dd>
+    <dt>Last checked</dt><dd>2026-03-13 18:56 UTC</dd>
+    <dt>Content hash</dt><dd><code class="hash-ok">sha256:104e05cfb2320c168537a53b039264fa9c0d36be94e46eda109332d38764b453</code></dd>
+    
+  </dl>
+</div>
+
+
+<h2>Contents</h2>
+<table class="toc">
+  <thead><tr><th>Page</th><th>Section</th><th>Lines</th></tr></thead>
+  <tbody>
+  
+  
+  <tr class="page-row"><td><a href="p01.html">Page 1</a></td><td></td><td>1–46</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p01.html#l29">1. The terms of this Practice Note apply to the advertising of all interest bearing accounts</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p01.html#l37">2. Where interest rates are advertised, these must be described as follows:</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p02.html">Page 2</a></td><td></td><td>47–100</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p02.html#l70">Section 7) to advertisements.</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p03.html">Page 3</a></td><td></td><td>101–148</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p03.html#l102">3. Advertisements which quote a rate of interest must quote the AER and either the Gross</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p03.html#l127">4. Advertisements which quote a rate of interest must contain the following specific</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p04.html">Page 4</a></td><td></td><td>149–196</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p04.html#l150">5. Advertisements which quote a rate of interest must clearly explain in the main part of the</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p04.html#l176">6. Advertisements which quote a rate of interest must clearly explain the following in the</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p05.html">Page 5</a></td><td></td><td>197–245</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p05.html#l207">7. A general notice to customers of rates need only comply with Sections 2 and 3 above In</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p06.html">Page 6</a></td><td></td><td>246–303</td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p07.html">Page 7</a></td><td></td><td>304–363</td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p08.html">Page 8</a></td><td></td><td>364–411</td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p09.html">Page 9</a></td><td></td><td>412–464</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p09.html#l444">1.   If an account pays or credits interest once a year, then the AER is equal to the</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p10.html">Page 10</a></td><td></td><td>465–521</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p10.html#l470">2.    If an account pays interest at intervals greater than 1 year, the AER is the rate</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p10.html#l495">3.    Now suppose a deposit of £100 is to be made at the beginning of the first year</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p11.html">Page 11</a></td><td></td><td>522–587</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p11.html#l539">4.   If in the above example there were not an additional deposit contracted in the</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p11.html#l554">5.   If an account pays interest more often than once a year, then the AER is</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p11.html#l584">6.   A short-term bond, for example an 8-month bond paying 5.5% per annum, has to</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p12.html">Page 12</a></td><td></td><td>588–652</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p12.html#l618">7.   Unconditional bonuses, for example a launch bonus of 0.5% paid at least until 30</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p13.html">Page 13</a></td><td></td><td>653–710</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p13.html#l658">8.    Finally, consider a hypothetical product with irregular (but committed) cash flows.</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p14.html">Page 14</a></td><td></td><td>711–771</td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p15.html">Page 15</a></td><td></td><td>772–819</td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p16.html">Page 16</a></td><td></td><td>820–871</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p16.html#l838">1. To ensure that AER properly reflects a lower cash holding rate prior to investment</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p16.html#l844">2. To extend the period before advertising needs to be updated with a new recalculated</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p16.html#l851">AER                             AER</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p16.html#l857">ACCOUNT</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p17.html">Page 17</a></td><td></td><td>872–921</td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p17.html#l892">AER                       AER</a></td><td></td></tr>
+  
+  
+  
+  <tr class="section-row"><td></td><td><a href="p17.html#l898">ACCOUNT</a></td><td></td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p18.html">Page 18</a></td><td></td><td>922–969</td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p19.html">Page 19</a></td><td></td><td>970–1017</td></tr>
+  
+  
+  
+  <tr class="page-row"><td><a href="p20.html">Page 20</a></td><td></td><td>1018–1017</td></tr>
+  
+  
+  </tbody>
+</table>
+
+
+
+<details class="sections" open>
+  <summary>Version history (1)</summary>
+  <ul>
+    
+    <li class="version-current">2026-03-13 — <code>sha256:104e05cfb2320c168537a53b039264fa9c0d36be94e46eda109332d38764b453</code> — Initial capture (current)</li>
+    
+  </ul>
+</details>
+
+
+</body>
+</html>

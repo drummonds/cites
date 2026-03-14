@@ -171,7 +171,7 @@ func TestParseAndMarshalRoundTrip(t *testing.T) {
 }
 
 func TestParseFile(t *testing.T) {
-	src, err := ParseFile("testdata/sample_source.txt")
+	src, err := ParseFile("testdata/sample_source.yaml")
 	if err != nil {
 		t.Fatalf("ParseFile: %v", err)
 	}
