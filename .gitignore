@@ -3,3 +3,5 @@ docs/*.html
 /cites
 
 .vscode
+.claude/settings.json
+.vscode/tasks.json
